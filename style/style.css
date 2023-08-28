@@ -34,3 +34,54 @@
 
 /* banner style main section*/
 
+.banner-img {
+    width: 300px;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: aliceblue;
+    background-image: url("./images/background.png"), 
+    linear-gradient(45deg, rgb(21, 20, 20),rgb(57, 56, 56));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer ;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
