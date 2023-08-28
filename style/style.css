@@ -1,8 +1,36 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.test{
-    color: brown;
-    cursor: ;
+
+.menu-container {
+    background-color: rgb(50, 47, 47);
+    padding: 20px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
+
+.menus {
+    display: flex;
+}
+
+.item {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: burlywood;
+}
+
+.logo-photo {
+    width: 120px;
+}
+
+/* banner style main section*/
+
